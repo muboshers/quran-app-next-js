@@ -1,1 +1,3 @@
-export enum TEST_URL {}
+export enum TEST_URL {
+  testURL = "/test-url",
+}
