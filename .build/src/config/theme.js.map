@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../src/config/theme.ts"],
+  "sourcesContent": ["export const colors = {\n  primary: \"#2091F9\",\n  secondary: \"#2DC071\",\n  secondaryOrange: \"#E77C40\",\n  backgroundGradient:\n    \"linear-gradient(39.97deg, #00F3B9 0.79%, #2187FF 79.29%)\",\n  text: \"#252B42\",\n  secondText: \"#737373\",\n  lightText: \"#FFFFFF\",\n  darkBackground: \"#252B42\",\n  hover: \"#2A7CC7\",\n  disabled: \"#8EC2F2\",\n  lightGray: \"#BDBDBD\",\n  alert: \"#E74040\",\n};\n\nexport const shadows = {\n  shadow: \"0px 13px 19px rgba(0, 0, 0, 0.07)\",\n  dramatic: \"-31px -22px 19px rgba(0, 0, 0, 0.3)\",\n  lightDropShadow: \"0px 2px 4px rgba(0, 0, 0, 0.1)\",\n  textShadow: \"0px 13px 19px rgba(0, 0, 0, 0.24)\",\n};\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAO,MAAM,SAAS;AAAA,EACpB,SAAS;AAAA,EACT,WAAW;AAAA,EACX,iBAAiB;AAAA,EACjB,oBACE;AAAA,EACF,MAAM;AAAA,EACN,YAAY;AAAA,EACZ,WAAW;AAAA,EACX,gBAAgB;AAAA,EAChB,OAAO;AAAA,EACP,UAAU;AAAA,EACV,WAAW;AAAA,EACX,OAAO;AACT;AAEO,MAAM,UAAU;AAAA,EACrB,QAAQ;AAAA,EACR,UAAU;AAAA,EACV,iBAAiB;AAAA,EACjB,YAAY;AACd;",
+  "names": []
+}

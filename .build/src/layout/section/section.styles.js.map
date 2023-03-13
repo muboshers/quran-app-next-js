@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../src/layout/section/section.styles.ts"],
+  "sourcesContent": ["import styled from \"styled-components\";\n\nexport interface SectionProps {\n  readonly background?:string;\n  readonly height?:string\n}\n\nexport const SectionWrapper = styled.section<SectionProps>`\n  background-position: center center;\n  background-size: cover;\n  background-repeat: no-repeat;\n  background-image: url(${(props) => props.background});\n  height: ${(props)=>props.height};\n  \n  display: flex;\n  align-items: center;\n  justify-content: center;\n`"],
+  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,+BAAmB;AAOZ,MAAM,iBAAiB,yBAAAA,QAAO;AAAA;AAAA;AAAA;AAAA,0BAIX,CAAC,UAAU,MAAM;AAAA,YAC/B,CAAC,UAAQ,MAAM;AAAA;AAAA;AAAA;AAAA;AAAA;",
+  "names": ["styled"]
+}

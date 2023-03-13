@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../src/api/urls.ts"],
+  "sourcesContent": ["export enum TEST_URL {\n  testURL = \"/test-url\",\n}\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAO,IAAK,WAAL,kBAAKA,cAAL;AACL,EAAAA,UAAA,aAAU;AADA,SAAAA;AAAA,GAAA;",
+  "names": ["TEST_URL"]
+}

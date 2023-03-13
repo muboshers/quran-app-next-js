@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../src/store/index.ts"],
+  "sourcesContent": ["import { configureStore } from \"@reduxjs/toolkit\";\nimport { baseApi } from \"../api\";\nimport { setupListeners } from \"@reduxjs/toolkit/query\";\nimport cartReducer from \"./cart-slice\";\n\nconst store = configureStore({\n  reducer: {\n    [baseApi.reducerPath]: baseApi.reducer,\n    cart: cartReducer,\n  },\n  middleware: (getDefaultMiddleware) =>\n    getDefaultMiddleware({ serializableCheck: false }).concat(\n      baseApi.middleware\n    ),\n  devTools: true,\n});\n\nsetupListeners(store.dispatch);\nexport type RootState = ReturnType<typeof store.getState>;\nexport type DispatchType = typeof store.dispatch;\n\nexport { store };\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,qBAA+B;AAC/B,iBAAwB;AACxB,mBAA+B;AAC/B,wBAAwB;AAExB,MAAM,YAAQ,+BAAe;AAAA,EAC3B,SAAS;AAAA,IACP,CAAC,mBAAQ,cAAc,mBAAQ;AAAA,IAC/B,MAAM,kBAAAA;AAAA,EACR;AAAA,EACA,YAAY,CAAC,yBACX,qBAAqB,EAAE,mBAAmB,MAAM,CAAC,EAAE;AAAA,IACjD,mBAAQ;AAAA,EACV;AAAA,EACF,UAAU;AACZ,CAAC;AAAA,IAED,6BAAe,MAAM,QAAQ;",
+  "names": ["cartReducer"]
+}

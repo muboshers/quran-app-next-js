@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../src/store/cart-slice.ts"],
+  "sourcesContent": ["import { createSlice } from \"@reduxjs/toolkit\";\n\ninterface CartInterface {\n  readonly cart: any[];\n}\n\nconst initialState: CartInterface = {\n  cart: [],\n};\nexport const cartSlice = createSlice({\n  name: \"cart\",\n  initialState,\n  reducers: {\n    addToCart: (state) => {\n      console.log(\"Hello world\");\n    },\n  },\n});\n\nexport const { addToCart } = cartSlice.actions;\n\nconst cartReducer = cartSlice.reducer;\n\nexport default cartReducer;\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,qBAA4B;AAM5B,MAAM,eAA8B;AAAA,EAClC,MAAM,CAAC;AACT;AACO,MAAM,gBAAY,4BAAY;AAAA,EACnC,MAAM;AAAA,EACN;AAAA,EACA,UAAU;AAAA,IACR,WAAW,CAAC,UAAU;AACpB,cAAQ,IAAI,aAAa;AAAA,IAC3B;AAAA,EACF;AACF,CAAC;AAEM,MAAM,EAAE,UAAU,IAAI,UAAU;AAEvC,MAAM,cAAc,UAAU;AAE9B,IAAO,qBAAQ;",
+  "names": []
+}
