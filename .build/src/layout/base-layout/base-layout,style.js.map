@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../src/layout/base-layout/base-layout,style.ts"],
+  "sourcesContent": ["import styled from \"styled-components\";\n\nexport const BaseLayoutStyle = styled.div`\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n  min-height: 100vh;\n`;\n\nexport const BaseLayoutMain = styled.main`\n  flex-grow: 1;\n`;\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,+BAAmB;AAEZ,MAAM,kBAAkB,yBAAAA,QAAO;AAAA;AAAA;AAAA;AAAA;AAAA;AAO/B,MAAM,iBAAiB,yBAAAA,QAAO;AAAA;AAAA;",
+  "names": ["styled"]
+}

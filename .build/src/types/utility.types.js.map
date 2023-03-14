@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../src/types/utility.types.ts"],
+  "sourcesContent": ["import React from \"react\";\n\nexport interface IconBaseProps extends React.SVGAttributes<SVGElement> {\n  children?: React.ReactNode;\n  size?: string | number;\n  color?: string;\n  stroke?: string;\n  active?: boolean;\n}\nexport type IconType = React.FC<IconBaseProps>;\n"],
+  "mappings": ";;;;;;;;;;;;;;AAAA;AAAA;",
+  "names": []
+}

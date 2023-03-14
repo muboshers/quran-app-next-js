@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../src/api/base-interface.ts"],
+  "sourcesContent": ["export interface testType {}\n"],
+  "mappings": ";;;;;;;;;;;;;;AAAA;AAAA;",
+  "names": []
+}
