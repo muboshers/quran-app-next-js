@@ -1,5 +1,4 @@
 import styled, { css } from "styled-components";
-import type { TypographyProps } from "./index";
 import { colors } from "../../config/theme";
 
 const size = {
@@ -68,7 +67,7 @@ export const weight = {
   w_400: 400,
 };
 
-export const Text = styled.p<TypographyProps>`
+export const Text = styled.p<any>`
   color: ${(props) => colors[props.color]};
   ${(props) => size[props.textSize]};
   font-weight: ${(props) => weight[props.textWeight]};
