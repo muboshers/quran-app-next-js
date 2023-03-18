@@ -65,7 +65,7 @@ export const InputElement = styled.input<InputStyleProps>`
   }}
 
   &:focus {
-    border: 2px solid #2091f9;
+    border: 2px solid #00AC6A;
   }
 
   ${({ type }) => {
@@ -116,7 +116,7 @@ export const IconStyles = styled.span<InputStyleProps>`
     if (iconPosition === "left") {
       return `
       right:auto;
-      left: 10px;
+      left: 20px;
       transform: translate(0, -69%);
     `;
     }
@@ -128,7 +128,7 @@ export const IconStyles = styled.span<InputStyleProps>`
       align-items:center;
       position:absolute;
       top:50%;
-      right:10px;
+      right:20px;
       transform:translate(0,-50%);
     `;
     } else if (!label && iconPosition === "left") {

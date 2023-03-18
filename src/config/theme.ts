@@ -1,15 +1,14 @@
 export const colors = {
-  primary: "#2091F9",
-  secondary: "#2DC071",
-  secondaryOrange: "#E77C40",
+  primary: "#00AC6A",
+  primaryOpacity: "rgba(0, 172, 106, 0.11)",
   backgroundGradient:
     "linear-gradient(39.97deg, #00F3B9 0.79%, #2187FF 79.29%)",
   text: "#252B42",
   secondText: "#737373",
   lightText: "#FFFFFF",
   darkBackground: "#252B42",
-  hover: "#2A7CC7",
-  disabled: "#8EC2F2",
+  hover: "#009b5f",
+  disabled: "#d1f3eb",
   lightGray: "#BDBDBD",
   alert: "#E74040",
 };
