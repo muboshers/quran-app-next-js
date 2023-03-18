@@ -68,23 +68,23 @@ export const weight = {
 };
 
 export const Text = styled.p<any>`
-  color: ${(props) => colors[props.color]};
+  color: ${(props:any) => colors<any>[props.color]};
   ${(props) => size[props.textSize]};
-  font-weight: ${(props) => weight[props.textWeight]};
+  font-weight: ${(props:any) => weight[props.textWeight]};
 
   @media (max-width: 1399px) {
-    ${(props) => props.responsive?.xxl && size[props.responsive?.xxl]};
+    ${(props:any) => props.responsive?.xxl && size[props.responsive?.xxl]};
   }
   @media (max-width: 1200px) {
-    ${(props) => props.responsive?.xl && size[props.responsive?.xl]};
+    ${(props:any) => props.responsive?.xl && size[props.responsive?.xl]};
   }
   @media (max-width: 992px) {
-    ${(props) => props.responsive?.md && size[props.responsive?.md]};
+    ${(props:any) => props.responsive?.md && size[props.responsive?.md]};
   }
   @media (max-width: 992px) {
-    ${(props) => props.responsive?.sm && size[props.responsive?.sm]};
+    ${(props:any) => props.responsive?.sm && size[props.responsive?.sm]};
   }
   @media (max-width: 992px) {
-    ${(props) => props.responsive?.xs && size[props.responsive?.xs]};
+    ${(props:any) => props.responsive?.xs && size[props.responsive?.xs]};
   }
 `;
