@@ -1,3 +1,5 @@
+import { TextColor } from "../components/typography";
+
 export const colors = {
   primary: "#00AC6A",
   primaryOpacity: "rgba(0, 172, 106, 0.11)",

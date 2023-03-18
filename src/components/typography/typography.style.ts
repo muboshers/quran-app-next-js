@@ -1,4 +1,5 @@
 import styled, { css } from "styled-components";
+import type { TypographyProps } from "./index";
 import { colors } from "../../config/theme";
 
 const size = {
@@ -67,10 +68,10 @@ export const weight = {
   w_400: 400,
 };
 
-export const Text = styled.p<any>`
-  color: ${(props:any) => colors<any>[props.color]};
-  ${(props) => size[props.textSize]};
-  font-weight: ${(props:any) => weight[props.textWeight]};
+export const Text = styled.p<TypographyProps>`
+  color: ${(props) => colors[props.color]};
+  font-size: ${(props) => size[props.textSize]};
+  font-weight: ${(props) => weight[props.textWeight]};
 
   @media (max-width: 1399px) {
     ${(props) => props.responsive?.xxl && size[props.responsive?.xxl]};
