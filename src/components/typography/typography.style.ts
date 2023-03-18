@@ -73,18 +73,18 @@ export const Text = styled.p<any>`
   font-weight: ${(props:any) => weight[props.textWeight]};
 
   @media (max-width: 1399px) {
-    ${(props:any) => props.responsive?.xxl && size[props.responsive?.xxl]};
+    ${(props) => props.responsive?.xxl && size[props.responsive?.xxl]};
   }
   @media (max-width: 1200px) {
-    ${(props:any) => props.responsive?.xl && size[props.responsive?.xl]};
+    ${(props) => props.responsive?.xl && size[props.responsive?.xl]};
   }
   @media (max-width: 992px) {
-    ${(props:any) => props.responsive?.md && size[props.responsive?.md]};
+    ${(props) => props.responsive?.md && size[props.responsive?.md]};
   }
   @media (max-width: 992px) {
-    ${(props:any) => props.responsive?.sm && size[props.responsive?.sm]};
+    ${(props) => props.responsive?.sm && size[props.responsive?.sm]};
   }
   @media (max-width: 992px) {
-    ${(props:any) => props.responsive?.xs && size[props.responsive?.xs]};
+    ${(props) => props.responsive?.xs && size[props.responsive?.xs]};
   }
 `;
