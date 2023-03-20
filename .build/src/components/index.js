@@ -32,4 +32,4 @@ var import_typography = require("./typography");
   Input,
   Typography
 });
-//# sourceMappingURL=index.js.map
+//# sourceMappingURL=index.ts.map

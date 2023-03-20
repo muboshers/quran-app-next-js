@@ -40,4 +40,4 @@ const baseApi = (0, import_react.createApi)({
 0 && (module.exports = {
   baseApi
 });
-//# sourceMappingURL=index.js.map
+//# sourceMappingURL=index.ts.map
