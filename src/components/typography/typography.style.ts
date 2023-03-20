@@ -70,7 +70,7 @@ export const weight = {
 
 export const Text = styled.p<TypographyProps>`
   color: ${(props) => colors[props.color]};
-  ${(props) => size[props.textSize]};
+  font-size: ${(props) => size[props.textSize]};
   font-weight: ${(props) => weight[props.textWeight]};
 
   @media (max-width: 1399px) {

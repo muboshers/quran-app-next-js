@@ -1,5 +1,4 @@
 import { Text } from "./typography.style";
-import React from "react";
 
 type FontSize =
   | "h1"
@@ -14,10 +13,8 @@ type FontSize =
   | "mobileMenu"
   | "list";
 
-type TextColor =
+export type TextColor =
   | "primary"
-  | "secondary"
-  | "secondaryOrange"
   | "backgroundGradient"
   | "text"
   | "secondText"
@@ -26,7 +23,8 @@ type TextColor =
   | "hover"
   | "disabled"
   | "lightGray"
-  | "alert";
+  | "alert"
+  | "primaryOpacity";
 
 type FontWeight = "w_800" | "w_700" | "w_600" | "w_500" | "w_400";
 

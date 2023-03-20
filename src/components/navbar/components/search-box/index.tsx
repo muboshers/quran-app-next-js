@@ -1,11 +1,10 @@
-import React, {useState} from 'react';
-import {SearchBoxStyle} from "@/src/components/navbar/components/search-box/search-box.styles";
+import React, {useState} from "react";
+import {SearchBoxStyle} from "./search-box.styles";
 import {Button, Input} from "@/src/components";
 import {SearchIcon} from "@/src/icons";
 
-function SearchBox() {
-
-    const [query, setQuery] = useState<string>("")
+export function SearchBox() {
+  const [query, setQuery] = useState<string>("");
 
     return (
         <SearchBoxStyle>
@@ -22,5 +21,3 @@ function SearchBox() {
         </SearchBoxStyle>
     );
 }
-
-export default SearchBox;
