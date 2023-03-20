@@ -1,5 +1,5 @@
 compile = "./.config/build.sh"
-run = "node --enable-source-maps .build/index.js"
+run = "node --enable-source-maps .build/index.ts"
 entrypoint = "index.ts"
 hidden = [".build", ".config"]
 

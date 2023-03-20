@@ -9,7 +9,7 @@ function SidebarBottom() {
         <SidebarBottomStyle>
             <Link href={"/"}><HomeIcons /></Link>
             <Link href={"/all-books"}><ArabicBookIcon /></Link>
-            <Link href={"/login"}><UserIconIcon /></Link>
+            <Link href={"/login"} className="user-icon"><UserIconIcon /></Link>
             <Link href={"/whishlist"}><BookmarkIcon /></Link>
             <Link href={"/whishlist"}><ShareIcon/></Link>
         </SidebarBottomStyle>

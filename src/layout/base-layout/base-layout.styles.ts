@@ -30,5 +30,8 @@ export const BaseLayoutMainChildren = styled.div`
   @media screen and (max-width: 768px) {
     margin-left: 20px;
     margin-right: 20px;
+    
+    border-radius: 0;
+    padding: 20px 15px;
   }
 `

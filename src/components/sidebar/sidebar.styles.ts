@@ -24,6 +24,7 @@ export const SidebarItems = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
   background-color: var(--main-layout-bg-color);
   padding-top: 20px;
 `
@@ -58,4 +59,15 @@ export const SidebarLinks = styled.div`
       font-size: 22px;
     }
   }
+`
+
+export const SidebarTopItems = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+`
+
+export const SidebarBottomItems = styled.div`
+  margin-bottom: 60px;
 `

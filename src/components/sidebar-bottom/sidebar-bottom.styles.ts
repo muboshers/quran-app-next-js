@@ -5,7 +5,7 @@ export const SidebarBottomStyle = styled.div`
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 80px;
+  height: 60px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -15,10 +15,27 @@ export const SidebarBottomStyle = styled.div`
   @media screen and (min-width: 769px) {
     display: none;
   }
+  
+  @media screen and (max-width: 425px) {
+    padding: 0 20px;
+  }
 
   & a {
     text-align: center;
     margin: 15px 0;
+    
+    &.user-icon{
+      position: relative;
+      top: -15px;
+      background-color: var(--primary-color);
+      padding: 20px 22px;
+      border-radius: 50%;
+      margin: 0!important;
+      
+      & i {
+        color: white;
+      }
+    }
 
     & > i {
       color: black;

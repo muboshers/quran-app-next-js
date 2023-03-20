@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import {SearchBoxStyle} from "@/src/components/navbar/components/search-box/search-box.styles";
-import {Input} from "@/src/components";
+import {Button, Input} from "@/src/components";
 import {SearchIcon} from "@/src/icons";
 
 function SearchBox() {
@@ -18,6 +18,7 @@ function SearchBox() {
                 value={query}
                 onChange={(e: React.ChangeEvent<any>) => setQuery(e.target.value)}
             />
+            <Button color={"text"} background={"transparent"} hover={"transparent"} border={"border_blue"} borderRadius={"border_50"} align={"center"} padding={"padding_10"}><SearchIcon /></Button>
         </SearchBoxStyle>
     );
 }
